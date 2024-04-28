@@ -10,6 +10,7 @@ We have 3 different types of rate limiters to try
 
 ## What and Why -> Rate-Limiter
 Rate limiting is a popular distributed system pattern. It is an integral part of all modern large-scale applications.
+It's a tool that monitors the number of requests per unit of time that a client IP can send to an API endpoint. If the number of requests exceeds a certain threshold, the rate limiter will block the client IP from sending further requests for a certain period of time.
 Benefits:
 -   Prevent Resource Starvation
 -   Prevent Sources from being overloaded

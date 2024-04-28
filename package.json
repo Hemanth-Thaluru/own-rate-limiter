@@ -5,10 +5,9 @@
     "main": "index.js",
     "scripts": {
       "build": "tsc",
-      "token-bucket": "nodemon --watch 'src/**/*' -e ts --exec ''",
-      "fixed-window-counter": "nodemon --watch 'src/**/*' -e ts --exec ''",
-      "sliding-window-log": "nodemon --watch 'src/**/*' -e ts --exec ''",
-      "liding-window-counter": "nodemon --watch 'src/**/*' -e ts --exec ''",
+      "token-bucket": "nodemon --watch 'src/**/*' -e ts --exec 'src/Algos/TokenBucket/app.ts'",
+      "fixed-window-counter": "nodemon --watch 'src/**/*' -e ts --exec 'src/Algos/FixedWindowCounter/app.ts'",
+      "sliding-window-counter": "nodemon --watch 'src/**/*' -e ts --exec 'src/Algos/SlidingWindowCounter/app.ts'",
       "test": "vitest"
     },
     "keywords": [],

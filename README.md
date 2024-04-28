@@ -2,7 +2,8 @@
 
 ## Wanna Try it
 
-Clone it `npm install`
+Clone and install node packages `npm install`
+
 We have 3 different types of rate limiters to try
 1.  Fixed Window -> `npm run fixed-window-counter`
 2.  Token Bucket -> `npm run token-bucket`

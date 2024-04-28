@@ -6,12 +6,12 @@ export const TokenBucketApp = express()
 const port = 8080
 
 TokenBucketApp.get('/unlimited', (req, res) => {
-  res.send("Unlimited! Let's Go!")
+  res.send("You are on Unlimited tier!")
 })
 
 // middleware
 TokenBucketApp.get('/limited', rateLimitMiddleware, (req, res) => {
-  res.send("Limited, don't overuse me!")
+  res.send("You are throttled")
 })
 
 //server start

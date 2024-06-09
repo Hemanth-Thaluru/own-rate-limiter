@@ -1,10 +1,8 @@
 # Building Rate Limiter From Scratch
 
 ## Wanna Try it
-
 Clone and install node packages `npm install`
-
-We have 3 different types of rate limiters to try
+Here we have 3 different types of rate limiters to try!
 1.  Fixed Window -> `npm run fixed-window-counter`
 2.  Token Bucket -> `npm run token-bucket`
 3.  Sliding Window -> `npm run sliding-window-counter`
